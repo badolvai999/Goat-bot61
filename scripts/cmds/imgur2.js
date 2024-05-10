@@ -16,14 +16,14 @@ module.exports = {
 
   onStart: async function(){},
   onChat: async function({ message, event, args, commandName, api, usersData}) {
-       
+
     const input = event.body;
           if(input && input.trim().toLowerCase().startsWith('imgurl') || input && input.trim().toLowerCase().startsWith('imgur')){
            const data = input.split(" ");
            data.shift();
     const link = event.messageReply?.attachments[0]?.url || data.join(" ");
     try {
-        const response = await axios.get(`${global.GoatBot.config.API.DIPTO}/imgur?url=${encodeURIComponent(link)}`);
+        const response = await axios.get(`https://noobs-apihouse.onrender.com/dipto/imgur?url=${encodeURIComponent(link)}`);
       const imgurLink = response.data.data;
       return message.reply(imgurLink);
     } catch (error) {
