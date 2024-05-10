@@ -33,7 +33,7 @@ config: {
        };
 
         if ((event.body.toLowerCase() == "Call me") || (event.body.toLowerCase() == "call me")) {
-         return api.sendMessage("audio call 500+ Video call 1000+😩  <3", threadID);
+         return api.sendMessage("audio call 500+ Video call 1000+ ok🍆😩<3", threadID);
        };
 
        if ((event.body.toLowerCase() == "Eta kar bot") || (event.body.toLowerCase() == "এটা কার বট")) {
@@ -180,19 +180,19 @@ config: {
      return api.sendMessage("️Good Night🌃, Take Care Babe🥺", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "bro")) {
+  if ((event.body.toLowerCase() == "Bro")) {
      return api.sendMessage("️But I Am Girl, You Can Call Me Maya", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "boy")) {
+  if ((event.body.toLowerCase() == "Boy")) {
      return api.sendMessage("️bbe, I Am Girl 😑", threadID, messageID);
    };
 
-   if ((event.body.toLowerCase() == "beb") || (event.body.toLowerCase() == "bebi")) {
-     return api.sendMessage("️hm Beb😚🖤", threadID, messageID);
+   if ((event.body.toLowerCase() == "Tnx") || (event.body.toLowerCase() == "ধন্যবাদ")) {
+     return api.sendMessage("️মানুষ৷ মাত্রই ভুল ক্ষমা চায়ার মাইরে সালাম 😚🖤", threadID, messageID);
    };
 
-   if ((event.body.toLowerCase() == "baby")) {
+   if ((event.body.toLowerCase() == "Baby")) {
      return api.sendMessage("️bolo Baby😚🖤", threadID, messageID);
    };
 
@@ -208,17 +208,17 @@ config: {
      return api.sendMessage("️Hello, How Are You 😗", threadID, messageID);
    };
 
-    if ((event.body.toLowerCase() == "hello") || (event.body.toLowerCase() == "heloo")) {
+    if ((event.body.toLowerCase() == "hello") || (event.body.toLowerCase() == "Hlw")) {
      return api.sendMessage("️Hi And Wassup Preety Stranger🙂", threadID, messageID);
    };
 
   if ((event.body.toLowerCase() == "who are you") || (event.body.toLowerCase() == "who r u")) {
-     return api.sendMessage("️I Am ASIF x69, An AI Based Messenger Chatbot.", threadID, messageID);
+     return api.sendMessage("️I Am RB-BOT, An AI Based Messenger Chatbot.", threadID, messageID);
    };
 
   if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
     var msg = {
-      body: ` ${rand}`
+      body: ` ${name}\n\n${rand}`
     }
     return api.sendMessage(msg, threadID, messageID);
   }
