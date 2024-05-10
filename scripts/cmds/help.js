@@ -107,8 +107,12 @@ module.exports = {
   ├── Usage
   │ ${usage}
   ├── Notes
-  │ THIS BOT HAS BEEN MADE BY LORD AIZEN JR (RB) WITH THE HELP OF ANONYMOUS SANAM
-  │ FOR ANY HELP YOU CAN CONTRACT WITH OWNER🍒 -https://www.facebook.com/100000939642985
+  ├── This robot is created by Rb-Badal-khan
+  ├── Robot is modified by Rajababu for any
+  ├── help you can contact admin Thanks
+  ├── m.me/100007070042228
+  ├── m.me/100000939642985
+  │  𝐓𝐇𝐀𝐍𝐊𝐒-𝐑𝐁-𝐁𝐀𝐃𝐎𝐋-𝐊𝐇𝐀𝐍-𝐁𝐎𝐒𝐒
   ╰━━━━━━━❖`;
 
         await message.reply(response);
