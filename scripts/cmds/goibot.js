@@ -218,7 +218,7 @@ config: {
 
   if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
     var msg = {
-      body: `${name}, ${rand}`
+      body: ` ${rand}`
     }
     return api.sendMessage(msg, threadID, messageID);
   }
