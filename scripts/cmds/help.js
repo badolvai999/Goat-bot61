@@ -46,12 +46,12 @@ module.exports = {
 
       Object.keys(categories).forEach((category) => {
         if (category !== "info") {
-          msg += `\n❤️ [${category.toUpperCase()}] 》❤️`;
+          msg += `\n🍒 [${category.toUpperCase()}] 》🍒`;
 
 
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
-            const cmds = names.slice(i, i + 3).map((item) => ` 💛 ${item} 💛\n`);
+            const cmds = names.slice(i, i + 3).map((item) => `╰┈► ${item} 𒁍❯\n`);
             msg += `\n ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
           }
 
@@ -61,7 +61,7 @@ module.exports = {
 
       const totalCommands = commands.size;
       msg += `\n𝐓𝐎𝐓𝐀𝐋 𝐂𝐌𝐃 ${totalCommands}\n\n`;
-      msg += `╔═════▓𝐎𝐖𝐍𝐄𝐑-𝐂𝐎𝐍𝐓𝐀𝐂𝐓▓═════╗\n\n❤️𝐎𝐖𝐍𝐄𝐑-𝐍𝐀𝐌𝐄❤️\n💛(𝐑𝐁-𝐁𝐀𝐃𝐎𝐋-𝐊𝐇𝐀𝐍)💛\n🤍𝐀𝐃𝐌𝐈𝐍-𝐍𝐀𝐌𝐄🤍\n💙(𝐑𝐀𝐉𝐀-𝐁𝐀𝐁𝐔)💙\n💚𝐅𝐁-𝐈𝐃-𝐋𝐈𝐍𝐊💚\n\n╚═════▓𝐀𝐃𝐌𝐈𝐍-𝐂𝐎𝐍𝐓𝐀𝐂𝐓▓═════╝\n\n╔═══════•| 💜 |•═══════╗\n\nhttps://www.facebook.com/RAJA.BABU.TERA.REAL.ABBU.OK.07\n\nm.me/100007070042228\n\nhttps://www.facebook.com/www.xxx.com61\n\nm.me/100000939642985\n\nᥬ🥶᭄  ᥬ😳᭄ ᥬ😝᭄  ᥬ🙄᭄ ᥬ😱᭄ ᥬ🤡᭄  ᥬ🥵᭄\n\n╚═══════•| 💜 |•═══════╝`; // its not decoy so change it if you want 
+      msg += `╔═══════•|𝐎𝐖𝐍𝐄𝐑-𝐍𝐀𝐌𝐄|•═══════╗\n\n❤️𝐎𝐖𝐍𝐄𝐑-𝐍𝐀𝐌𝐄❤️\n💛(𝐑𝐁-𝐁𝐀𝐃𝐎𝐋-𝐊𝐇𝐀𝐍)💛\n🤍𝐀𝐃𝐌𝐈𝐍-𝐍𝐀𝐌𝐄🤍\n💙(𝐑𝐀𝐉𝐀-𝐁𝐀𝐁𝐔)💙\n💚𝐅𝐁-𝐈𝐃-𝐋𝐈𝐍𝐊💚\n\n╚═══════•|𝐀𝐃𝐌𝐈𝐍-𝐍𝐀𝐌𝐄|•═══════╝\n\n╔═════▓𝐎𝐖𝐍𝐄𝐑-𝐂𝐎𝐍𝐓𝐀𝐂𝐓▓═════╗\n\nhttps://www.facebook.com/RAJA.BABU.TERA.REAL.ABBU.OK.07\n\nm.me/100007070042228\n\nhttps://www.facebook.com/www.xxx.com61\n\nm.me/100000939642985\n\nᥬ🥶᭄  ᥬ😳᭄ ᥬ😝᭄  ᥬ🙄᭄ ᥬ😱᭄ ᥬ🤡᭄  ᥬ🥵᭄\n\n╚═════▓𝐀𝐃𝐌𝐈𝐍-𝐂𝐎𝐍𝐓𝐀𝐂𝐓▓═════╝`; // its not decoy so change it if you want 
 
       const helpListImages = [
         "https://i.imgur.com/HOv1tz4.jpeg", // don't change imgur
